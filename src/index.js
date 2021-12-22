@@ -19,7 +19,7 @@ const DEFAULT_VERSION = '3.5.0';
 
 const FEE_LIMIT = 150000000;
 
-export default class TronWeb extends EventEmitter {
+class TronWeb extends EventEmitter {
     static providers = providers;
     static BigNumber = BigNumber;
     static TransactionBuilder = TransactionBuilder;
@@ -442,3 +442,6 @@ export default class TronWeb extends EventEmitter {
         });
     }
 };
+
+export default TronWeb;
+export const utils;

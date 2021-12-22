@@ -443,5 +443,7 @@ class TronWeb extends EventEmitter {
     }
 };
 
-export default TronWeb;
-export const utils;
+export default  {
+    TronWeb,
+    utils
+}
